@@ -7,7 +7,7 @@
   padding-left: 0px;
  }
 
- .alert-container {}
+
 
  .callout-container {
   height: 100vh;
@@ -147,14 +147,20 @@
 
  /* Alerts*/
 
- .alert-warning {
-  background-color: #f05f40;
-  color: #fff;
-  border-color: #f05f40;
+
+
+ .site-wide-alert {
+  background-color: #efc54b;
+  border-color: #efc54b;
   text-align: center;
   margin-bottom: 0;
   border-radius: 0;
+  color: #5f5c5c;
  }
- 
- 
+
+
+ .alert-container {
+  padding-left: 0;
+  padding-right: 0;
+ }
  
